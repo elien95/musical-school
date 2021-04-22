@@ -1,0 +1,27 @@
+@import '_var.scss';
+@import '_custom-table';
+@import '_mix.scss';
+@import '_slider.scss';
+@import '_discount.scss';
+
+
+.custom-btn-primary{
+  @include button-style($brand_primary);
+}
+
+.btn.custom-btn.custom-btn-primary2{
+    color:#000;
+    background-color: $brand_primary;
+    border-color: $brand_primary;
+    box-shadow: 0 0 15px transparent;
+    &:hover,
+    &:active,
+    &:focus,
+    &:active:hover{
+    color: $brand_primary_dark;
+    border-color: $brand_primary_dark;
+    background-color: transparent;
+}
+
+}
+

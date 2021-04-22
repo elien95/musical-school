@@ -1,0 +1,84 @@
+#carousel-featured .product-details .custom-btn-primary {
+  color: #f8ad47;
+  border-color: #f8ad47;
+  background-color: transparent;
+  padding: 9px 25px;
+  margin-top: 15px;
+  border-radius: 2px;
+  font-size: 18px;
+}
+
+.custom-btn-primary {
+  color: #f8ad47;
+  border-color: #f8ad47;
+  background-color: transparent;
+}
+
+.custom-btn-primary:hover,
+.custom-btn-primary:active,
+.custom-btn-primary:focus,
+.custom-btn-primary:active:hover {
+  color: #3e2502;
+  border-color: #3e2502;
+  background-color: transparent;
+}
+
+.btn.custom-btn.custom-btn-primary2 {
+  color: #000;
+  background-color: #f8ad47;
+  border-color: #f8ad47;
+  box-shadow: 0 0 15px transparent;
+}
+
+.custom-btn-primary2:hover,
+.custom-btn-primary2:active,
+.custom-btn-primary2:focus,
+.custom-btn-primary2:active:hover {
+  color: #3e2502;
+  border-color: #3e2502;
+  background-color: transparent;
+}
+
+.custom-navbar .container .custom-form-control:focus {
+  border-color: #b9001b;
+  box-shadow: 0 0 2px 0 #b9001b;
+}
+
+.custom-navbar .search-btn {
+  background-color: #ff3956;
+  border-color: #ff3956;
+  color: #FFF;
+  padding: 5PX 15PX 7PX 15PX;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 0;
+}
+
+.custom-navbar .search-btn:hover,
+.custom-navbar .search-btn:active,
+.custom-navbar .search-btn:focus,
+.custom-navbar .search-btn:active:focus,
+.custom-navbar .search-btn:active:hover {
+  background-color: #b9001b;
+  border-color: #b9001b;
+  color: #ffffff;
+}
+
+.custom-table .custom-btn-danger {
+  color: #ff3956;
+  border-color: #ff3956;
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.custom-table .custom-btn-danger:hover,
+.custom-table .custom-btn-danger:active,
+.custom-table .custom-btn-danger:focus,
+.custom-table .custom-btn-danger:active:hover,
+.custom-table .custom-btn-danger:active:focus {
+  color: #b9001b;
+  border-color: #b9001b;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=test.css.map */

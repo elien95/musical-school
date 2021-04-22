@@ -1,0 +1,36 @@
+
+
+.ui-slider{
+    margin: 25px 0 15px;
+    .ui-slider-handle{
+        background-color: $brand_primary !important;
+        border: none !important;
+        border-radius: 50%;
+        height: 12px !important;
+        width:12px !important;
+        top: 0rem !important;
+    }
+     .ui-slider-range{
+        border:1px solid $brand_primary !important;
+        background-color: transparent !important;
+        top: -1px !important;
+    }
+    .ui-slider-handle{
+        height: 23px !important;
+        width:23px !important;
+        top:-6px !important;
+    }
+    
+}
+
+
+
+@media(max-width:767px){
+
+.ui-slider .ui-slider-range{
+    background-color: $brand_primary !important;
+}
+#store-features {
+    right: -5px;
+}
+}
